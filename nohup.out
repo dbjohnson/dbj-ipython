@@ -1,0 +1,54 @@
+2014-12-26 22:55:36.228 [NotebookApp] Using existing profile dir: u'/Users/bryan/.ipython/profile_default'
+2014-12-26 22:55:36.232 [NotebookApp] Using MathJax from CDN: https://cdn.mathjax.org/mathjax/latest/MathJax.js
+2014-12-26 22:55:36.298 [NotebookApp] Serving notebooks from local directory: /Users/bryan/code/github/dbj-ipython
+2014-12-26 22:55:36.298 [NotebookApp] 0 active kernels 
+2014-12-26 22:55:36.298 [NotebookApp] The IPython Notebook is running at: http://localhost:8888/
+2014-12-26 22:55:36.299 [NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+2014-12-26 22:55:42.987 [NotebookApp] WARNING | Notebook Project Euler/euler11.ipynb is not trusted
+2014-12-26 22:55:43.431 [NotebookApp] Kernel started: 4ebb8f23-49a8-409e-afbe-aa31bcb8bd98
+2014-12-26 22:57:34.226 [NotebookApp] WARNING | Notebook Project Euler/euler12.ipynb is not trusted
+2014-12-26 22:57:34.434 [NotebookApp] Kernel started: 859454b5-803b-4333-8182-9d05f0c1837f
+2014-12-26 22:58:43.831 [NotebookApp] WARNING | Notebook Project Euler/euler8.ipynb is not trusted
+2014-12-26 22:58:43.976 [NotebookApp] Kernel started: cafc8dd9-7a45-4e88-9017-76c782ba0f10
+2014-12-26 23:03:35.758 [NotebookApp] Creating new notebook in /Project Euler/
+2014-12-26 23:03:36.824 [NotebookApp] Kernel started: d5797175-2f9f-482d-900f-7c6f140788db
+2014-12-26 23:05:37.394 [NotebookApp] Saving notebook at /Project Euler/Untitled0.ipynb
+2014-12-26 23:07:37.378 [NotebookApp] Saving notebook at /Project Euler/Untitled0.ipynb
+2014-12-26 23:08:21.609 [NotebookApp] Saving notebook at /Project Euler/euler1.ipynb
+2014-12-26 23:08:29.224 [NotebookApp] Creating new notebook in /Project Euler/
+2014-12-26 23:08:30.244 [NotebookApp] Kernel started: 67b47ec0-437e-4865-ac7c-29a51a85dcc1
+2014-12-26 23:09:36.683 [NotebookApp] Creating new notebook in /Project Euler/
+2014-12-26 23:09:37.691 [NotebookApp] Kernel started: a5412997-57d3-4acd-8a5a-d7c034712027
+2014-12-26 23:10:30.394 [NotebookApp] Saving notebook at /Project Euler/euler2.ipynb
+2014-12-26 23:10:54.489 [NotebookApp] Saving notebook at /Project Euler/euler3.ipynb
+2014-12-26 23:11:12.937 [NotebookApp] Creating new notebook in /Project Euler/
+2014-12-26 23:11:14.041 [NotebookApp] Kernel started: 8c00f357-80a8-4d2d-8869-a0c8bf0e27f1
+2014-12-26 23:12:32.015 [NotebookApp] Creating new notebook in /Project Euler/
+2014-12-26 23:12:33.046 [NotebookApp] Kernel started: 99f946dc-a0a0-4643-b07f-ec64d8b42cbb
+2014-12-26 23:13:14.393 [NotebookApp] Saving notebook at /Project Euler/euler4.ipynb
+2014-12-26 23:13:30.249 [NotebookApp] Creating new notebook in /Project Euler/
+2014-12-26 23:13:31.258 [NotebookApp] Kernel started: 4e51db16-3a9e-4975-b57b-0dec970a46eb
+2014-12-26 23:14:33.407 [NotebookApp] Saving notebook at /Project Euler/euler5.ipynb
+2014-12-26 23:14:52.045 [NotebookApp] Creating new notebook in /Project Euler/
+2014-12-26 23:14:53.071 [NotebookApp] Kernel started: 484fca83-95e1-44b9-b86a-702ffe0331d2
+2014-12-26 23:15:31.390 [NotebookApp] Saving notebook at /Project Euler/euler6.ipynb
+2014-12-26 23:16:53.078 [NotebookApp] Saving notebook at /Project Euler/euler7.ipynb
+2014-12-26 23:18:53.374 [NotebookApp] Saving notebook at /Project Euler/euler7.ipynb
+2014-12-26 23:19:09.641 [NotebookApp] WARNING | Notebook Project Euler/euler8.ipynb is not trusted
+2014-12-26 23:21:10.376 [NotebookApp] Saving notebook at /Project Euler/euler8.ipynb
+2014-12-26 23:21:17.372 [NotebookApp] WARNING | Notebook Project Euler/euler9.ipynb is not trusted
+2014-12-26 23:21:17.506 [NotebookApp] Kernel started: e3962e88-1be2-43f6-9d31-0fa816f9f0d0
+2014-12-26 23:22:00.226 [NotebookApp] Saving notebook at /Project Euler/euler9.ipynb
+2014-12-26 23:22:02.038 [NotebookApp] Saving notebook at /Project Euler/euler8.ipynb
+2014-12-26 23:22:04.363 [NotebookApp] Saving notebook at /Project Euler/euler7.ipynb
+2014-12-26 23:22:22.804 [NotebookApp] Creating new notebook in /Project Euler/
+2014-12-26 23:22:23.814 [NotebookApp] Kernel started: 6330e7b0-b5b1-4322-ae83-77428f1f9feb
+2014-12-26 23:23:06.387 [NotebookApp] Saving notebook at /Project Euler/euler10.ipynb
+2014-12-26 23:23:10.029 [NotebookApp] WARNING | Notebook Project Euler/euler11.ipynb is not trusted
+2014-12-26 23:23:33.975 [NotebookApp] Saving notebook at /Project Euler/euler11.ipynb
+2014-12-26 23:23:39.172 [NotebookApp] WARNING | Notebook Project Euler/euler12.ipynb is not trusted
+2014-12-26 23:25:39.377 [NotebookApp] Saving notebook at /Project Euler/euler12.ipynb
+2014-12-26 23:25:40.090 [NotebookApp] Saving notebook at /Project Euler/euler12.ipynb
+2014-12-26 23:25:43.375 [NotebookApp] WARNING | Notebook Project Euler/euler469.ipynb is not trusted
+2014-12-26 23:25:43.535 [NotebookApp] Kernel started: f61bf20b-cbce-4c9a-aaac-1d505a42b272
+2014-12-26 23:26:25.894 [NotebookApp] Saving notebook at /Project Euler/euler469.ipynb
