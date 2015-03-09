@@ -1,0 +1,318 @@
+<!doctype html public "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html lang="en">
+<head>
+<title>Climatology Resource for Agroclimatology</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="description" content="A renewable energy resource web site of global meteorology and surface solar energy climatology from NASA satellite data on 1 by 1 degree resolution.">
+<meta name="keywords" content="surface solar energy, insolation, solar energy, meteorology, NASA, renewable energy industry, solar geometry, alternative energy, solar irradiance, cloud amount, photovoltaic, surface albedo, tilted solar panels, clearness index, diffuse radiation, global insolation, direct normal radiation, sustainable energy, PV, solar radiation, electromagnetic energy, NO-SUN days, radiative fluxes, satellite observation, radiative transfer, solar cell, solar electricity, surplus insolation, daylight hours deficit insolation, atmosphere, atmospheric reflection, atmospheric transmission, kilowatt-hours per meter squared per day, kWh/m^2/day, Watts per meter squared, W/m^2, Langley Research Center, Surface Radiation Budget, World Climate Research Program">
+<meta name="robots" content="nofollow">
+<script type="text/javascript">
+  <!--Break out of frames
+  if (top.frames.length!=0)
+  top.location=self.document.location;
+  //-->
+</script>
+
+<script type="text/javascript">
+function Disclaimer() {alert("
+You are now leaving the NASA web domain (.nasa.gov)
+");}
+</script>
+</head>
+<body bgcolor="#FFFFFF">
+<form method=GET action="/cgi-bin/cgiwrap/solar/agro.cgi">
+
+<table align="center" width="95%" summary="table used for formatting">
+<tr><td align="center">
+<a href="http://power.larc.nasa.gov"><img src="/solar/images/POWERLogo.jpg" alt="" border="0"></a>
+<p> &nbsp;</td>
+<td align="center">
+<big>NASA Prediction of Worldwide Energy Resource (POWER)</big>
+<br><big><big><b>Climatology Resource for Agroclimatology</b></big></big>
+<br><big><i>Global coverage on a 1&deg; latitude by 1&deg; longitude grid</i></big>
+<dl>
+<dd><small><i>sponsored by </i>
+ <a href="http://www.nasa.gov" title="Go to NASA's main web site" target="_blank">NASA</a>'s
+ <a href="http://science.nasa.gov/earth-science/applied-sciences" title="Go to NASA's Applied Sciences Program web site" target="_blank">Applied Sciences Program</a> in the Science Mission Directorate</small>
+<dd><small><i>developed by </i>
+ <a href="http://power.larc.nasa.gov">POWER</a>: Prediction of Worldwide Energy Resource Project</small>
+<dd><img src="/solar/images/fiber_optic.gif" height="16" width="800" alt="divider">
+</dl></td>
+<td align="center">
+<img src="/solar/images/NASA_logo.gif" alt="NASA logo" border=0 width="126" height="107">
+<p> &nbsp;</td></tr></table>
+<a name="s01"></a>
+<table bgcolor="#AFEEEE" align="center" width="90%" summary="table used for formatting"><tr><td><b>
+Review the <a href="http://power.larc.nasa.gov/common/AgroclimatologyMethodology/Agro1d0_Methodology_Content.html" target="_blank">Methodology Documentation</a> for additional information about the derivation of these parameters.
+</b></td></tr></table>
+<table align="center" width="90%" summary="table used for formatting">
+<tr><td><hr><b><i><font color="red">
+Please Note: Different data sets were required to produce a long time series
+<table><tr>
+<th>Dates</th><th> &nbsp; </th><th>Radiation Source</th><th> &nbsp; </th><th>Meteorology Source</th><th> &nbsp; </th><th>Precipitation Source</th>
+</tr><tr>
+<td>1983 through 2007</td><td> &nbsp; </td><td>SRB 3.0</td><td> </td><td>GEOS-4</td><td> </td><td>GPCP 2.2 (beginning January 1997)</td>
+</tr><tr>
+<td>2008 through 2012</td><td> </td><td>FLASHFlux Version 2H</td><td> </td><td>GEOS-5.1 &amp; GEOS-5.2</td><td> </td><td>GPCP 2.2</td>
+</tr><tr>
+<td>2013 through August 14, 2014</td><td> </td><td>FLASHFlux Version 3A</td><td> </td><td>GEOS-5 FP-IT</td><td> </td><td>GPCP 2.2</td>
+</tr><tr>
+<td>August 15, 2014 through near real-time</td><td> </td><td>FLASHFlux Version 3B</td><td> </td><td>GEOS-5 FP-IT</td><td> </td><td>GPCP 2.2</td>
+</tr></table>
+It is not recommended to use this time series data to assess trends across the breaks in dates listed above.
+</font></i>
+<br>Radiation source information: <a href="http://gewex-srb.larc.nasa.gov/">NASA/GEWEX Surface Radiation Budget (SRB) Project</a> &amp; <a href="http://flashflux.larc.nasa.gov/">CERES Fast Longwave And SHortwave Radiative Fluxes (FLASHFlux)</a>
+<br>Meteorology source information: <a href="http://gmao.gsfc.nasa.gov/">Global Modeling and Assimilation Office (GMAO)</a>
+<br>Precipitation source information: <a href="http://precip.gsfc.nasa.gov/">Global Precipitation Climatology Project (GPCP)</a>
+<hr>
+</b></td></tr></table>
+<input type="hidden" name="email" value="agro@larc.nasa.gov">
+<input type="hidden" name="step" value="1">
+<table align="center" width="90%" summary="table used for formatting">
+<caption>Enter BOTH latitude and longitude either in decimal
+<br> degrees or degrees and minutes separated by a "_".</caption>
+<tr><td>
+<table align="center" width="100%" summary="table used for formatting"><tr>
+<td align="center"><b>Example:</b></td>
+<td align="center" width="40%">Latitude 33.5<br>Longitude -80.75</td>
+<td align="center">OR</td>
+<td align="center" width="40%">Latitude 33_30<br>Longitude -80_45</td>
+</tr></table></td></tr>
+<tr><td><table width="100%" summary="table used for formatting"><tr>
+<td><b><label for="lat">Latitude? </label>
+<input type="text" name="lat" id="lat" size="12" value=""></b></td>
+<td width="30%">South:&nbsp;&nbsp; -90 to 0</td>
+<td width="30%">North:&nbsp;&nbsp; 0 to 90</td>
+</tr><tr>
+<td><b><label for="lon">Longitude? </label>
+<input type="text" name="lon" id="lon" size="12" value=""></b></td>
+<td width="30%">West:&nbsp;&nbsp; -180 to 0</td>
+<td width="30%">East:&nbsp;&nbsp; 0 to 180</td>
+</tr></table></td></tr>
+<!--
+<tr><td>
+<table summary="table used for formatting"><tr><td><b>
+<label for="lon">Elevation at site in meters above sea level (optional)? </label>
+<input type="text" name="sitelev" id="sitelev" size="12" value=""></b>
+</td></tr></table></td></tr>
+-->
+<tr><td><table summary="table used for formatting"><tr><td>
+<b>Start Date:</b>
+<select name="ms">
+<option value="1" selected>Jan<option value="2">Feb<option value="3">Mar
+<option value="4">Apr<option value="5">May<option value="6">Jun
+<option value="7">Jul<option value="8">Aug<option value="9">Sep
+<option value="10">Oct<option value="11">Nov<option value="12">Dec
+</select>
+<select name="ds">
+<option selected>1<option>2<option>3<option>4<option>5<option>6<option>7
+<option>8<option>9<option>10<option>11<option>12<option>13<option>14<option>15
+<option>16<option>17<option>18<option>19<option>20<option>21<option>22<option>23
+<option>24<option>25<option>26<option>27<option>28<option>29<option>30<option>31
+</select>
+<select name="ys">
+<option>1983<option>1984<option>1985<option>1986<option>1987<option>1988
+<option>1989<option>1990<option>1991<option>1992<option>1993<option>1994
+<option>1995<option>1996<option>1997<option>1998<option>1999<option>2000
+<option>2001<option>2002<option>2003<option>2004<option>2005<option>2006
+<option>2007<option>2008<option>2009<option>2010<option>2011<option>2012
+<option>2013<option>2014<option selected>2015
+</select>
+</td><td><i> &nbsp; SEE AVAILABLE DATES</i></td></tr><tr><td>
+<b> &nbsp;End Date:</b>
+<select name="me">
+<option value="1">Jan<option value="2">Feb<option value="3">Mar
+<option value="4">Apr<option value="5">May<option value="6">Jun
+<option value="7">Jul<option value="8">Aug<option value="9">Sep
+<option value="10">Oct<option value="11">Nov<option value="12" selected>Dec
+</select>
+<select name="de">
+<option>1<option>2<option>3<option>4<option>5<option>6<option>7<option>8
+<option>9<option>10<option>11<option>12<option>13<option>14<option>15<option>16
+<option>17<option>18<option>19<option>20<option>21<option>22<option>23<option>24
+<option>25<option>26<option>27<option>28<option>29<option>30<option selected>31
+</select>
+<select name="ye">
+<option>1983<option>1984<option>1985<option>1986<option>1987<option>1988
+<option>1989<option>1990<option>1991<option>1992<option>1993<option>1994
+<option>1995<option>1996<option>1997<option>1998<option>1999<option>2000
+<option>2001<option>2002<option>2003<option>2004<option>2005<option>2006
+<option>2007<option>2008<option>2009<option>2010<option>2011<option>2012
+<option>2013<option>2014<option selected>2015
+</select>
+</td><td><i> BESIDE EACH PARAMETER</i></td></tr></table></td></tr>
+<tr><td><hr width="90%"><table summary="table used for formatting">
+<caption>Choose between two output formats (1 OR 2):</caption>
+<tr><td width="65%"><b>
+1) Download solar and meteorological parameters in ICASA ASCII column format?
+</td><td><input type="submit" name="submit" value="Yes">
+</b></td></tr></table></td></tr>
+<tr><td><table summary="table used for formatting"><tr><td>
+<b><label for="param">2) Download single or multiple solar radiation and meteorological parameters in ASCII column format: </label></b>
+<br><b><i><font color="red">Note: Precipitation usually lags in availability. See available dates when choosing the parameters in the list to the right.</font></i></b>
+</td><td><small>
+<select multiple name="p" id="param" size="10">
+<option value="toa_dwn">Top-of-atmosphere Insolation (Jul 1983-near present)
+<option value="swv_dwn">Insolation on Horizontal Surface (Jul 1983-near present)
+<option value="lwv_dwn">Downward Longwave Radiative Flux (Jul 1983-near present)
+<option value="T2M">Average Air Temperature at 2 m (Jan 1983-near present)
+<option value="T2MN">Minimum Air Temperature at 2 m (Jan 1983-near present)
+<option value="T2MX">Maximum Air Temperature at 2 m (Jan 1983-near present)
+<option value="RH2M">Relative Humidity at 2 m (Jan 1983-near present)
+<option value="DFP2M">Dew Point at 2 m (Jan 1983-near present)
+<option value="RAIN">Precipitation (Jan 1997-near present with a several month delay)
+<option value="WS10M">Wind Speed at 10 m (Jan 1983-near present)
+</select>
+</small></td></tr></table></td></tr>
+<tr><td><!--<table summary="table used for formatting"><tr>
+<td><b>Plot one parameter: </b></td><td width="75%"><small>
+<input type="radio" name="plot" value="toa_dwn" id="toa_dwn" checked>
+<label for="toa_dwn">Top-of-atmosphere Insolation</label><br>
+<input type="radio" name="plot" value="swv_dwn" id="swv_dwn">
+<label for="swv_dwn">Insolation on Horizontal Surface</label><br>
+<input type="radio" name="plot" value="T2M" id="T2M">
+<label for="T2M">Average Air Temperature at 2 m</label><br>
+<input type="radio" name="plot" value="T2MN" id="T2MN">
+<label for="T2MN">Minimum Air Temperature at 2 m</label><br>
+<input type="radio" name="plot" value="T2MX" id="T2MX">
+<label for="T2MX">Maximum Air Temperature at 2 m</label><br>
+<input type="radio" name="plot" value="RH2M" id="RH2M">
+<label for="RH2M">Relative Humidity at 2 m</label><br>
+<input type="radio" name="plot" value="DFP2M" id="DFP2M">
+ <label for="DFP2M">Dew Point at 2 m</label><br>
+<input type="radio" name="plot" value="RAIN" id="RAIN">
+ <label for="RAIN">Precipitation</label><br>
+</small></td></tr>
+</table>--></td></tr>
+<tr><td><table align="center" summary="table used for formatting"><tr><td>
+<b> <input type="submit" name="submit" value="Submit"> </b></td>
+<td><b> <input type="submit" name="submit" value=" Reset "> </b></td>
+<td><i> This form is "Reset" if the input is out of range. </i>
+</td>
+</tr></table></td></tr></table>
+<table bgcolor="#AFEEEE" align="center" width="90%" summary="table used for formatting"><tr><td><b>
+Review the <a href="http://power.larc.nasa.gov/common/AgroclimatologyMethodology/Agro1d0_Methodology_Content.html" target="_blank">Methodology Documentation</a> for additional information about the derivation of these parameters.
+</b></td></tr></table>
+</form>
+<hr width="80%">
+<form method=GET action="/cgi-bin/cgiwrap/solar/agro.cgi">
+<input type="hidden" name="email" value="agro@larc.nasa.gov">
+<input type="hidden" name="area" value="area">
+<hr width="80%"><br>
+<table align="center" border="1" summary="table used for format" width="90%">
+<caption><big><b>New Feature!<br>
+Enter BOTH latitudes and longitudes of TWO diagonal corners of a region:
+</b></big><p></caption>
+<tr><td align="center">&nbsp; 
+<b><i>Enter either in decimal degrees or degrees and minutes separated by
+ a space.</i></b>
+<table align="center" width="90%" summary="table used for formatting"><tr>
+<td align="center"><b>Example:</b></td>
+<td align="center" width="40%">Latitude 33.5<br>Longitude -80.75</td>
+<td align="center">OR</td>
+<td align="center" width="40%">Latitude 33 30<br>Longitude -80 45</td>
+</tr></table>
+<p align="center">South: -90 to 0 &nbsp;| North: 0 to 90 &nbsp;|&nbsp;
+ West: -180 to 0 &nbsp;|&nbsp; East: 0 to 180</p>
+<table align="center" width="90%" summary="table used for formatting"><tr>
+<td align="center"><b>One corner</b></td>
+<td><label for="latmin">Latitude? </label>
+<input type="text" name="latmin" id="latmin" size="10" value=""></td>
+<td><label for="lonmin">Longitude? </label>
+<input type="text" name="lonmin" id="lonmin" size="10" value=""></td>
+</tr><tr>
+<td align="center"><b>Opposite corner</b></td>
+<td><label for="latmax">Latitude? </label>
+<input type="text" name="latmax" id="latmax" size="10" value=""></td>
+<td><label for="lonmax">Longitude? </label>
+<input type="text" name="lonmax" id="lonmax" size="10" value=""></td>
+</tr></table></td></tr></table>
+<br>
+<table align="center" width="70%" summary="table used for formatting"><tr><td>
+<b>Start Date:</b>
+<select name="ms">
+<option value="1" selected>Jan<option value="2">Feb<option value="3">Mar
+<option value="4">Apr<option value="5">May<option value="6">Jun
+<option value="7">Jul<option value="8">Aug<option value="9">Sep
+<option value="10">Oct<option value="11">Nov<option value="12">Dec
+</select>
+<select name="ds">
+<option selected>1<option>2<option>3<option>4<option>5<option>6<option>7
+<option>8<option>9<option>10<option>11<option>12<option>13<option>14<option>15
+<option>16<option>17<option>18<option>19<option>20<option>21<option>22<option>23
+<option>24<option>25<option>26<option>27<option>28<option>29<option>30<option>31
+</select>
+<select name="ys">
+<option>1983<option>1984<option>1985<option>1986<option>1987<option>1988
+<option>1989<option>1990<option>1991<option>1992<option>1993<option>1994
+<option>1995<option>1996<option>1997<option>1998<option>1999<option>2000
+<option>2001<option>2002<option>2003<option>2004<option>2005<option>2006
+<option>2007<option>2008<option>2009<option>2010<option>2011<option>2012
+<option>2013<option selected>2014
+</select>
+</td><td><i> &nbsp; SEE AVAILABLE DATES</i></td></tr><tr><td>
+<b> &nbsp;End Date:</b>
+<select name="me">
+<option value="1">Jan<option value="2">Feb<option value="3">Mar
+<option value="4">Apr<option value="5">May<option value="6">Jun
+<option value="7">Jul<option value="8">Aug<option value="9">Sep
+<option value="10">Oct<option value="11">Nov<option value="12" selected>Dec
+</select>
+<select name="de">
+<option>1<option>2<option>3<option>4<option>5<option>6<option>7<option>8
+<option>9<option>10<option>11<option>12<option>13<option>14<option>15<option>16
+<option>17<option>18<option>19<option>20<option>21<option>22<option>23<option>24
+<option>25<option>26<option>27<option>28<option>29<option>30<option selected>31
+</select>
+<select name="ye">
+<option>1983<option>1984<option>1985<option>1986<option>1987<option>1988
+<option>1989<option>1990<option>1991<option>1992<option>1993<option>1994
+<option>1995<option>1996<option>1997<option>1998<option>1999<option>2000
+<option>2001<option>2002<option>2003<option>2004<option>2005<option>2006
+<option>2007<option>2008<option>2009<option>2010<option>2011<option>2012
+<option>2013<option selected>2014
+</select>
+</td><td><i> BESIDE EACH PARAMETER</i></td></tr></table>
+
+<table align="center" width="90%" summary="table used for formatting"><tr><td>
+<b>
+ Download single or multiple solar radiation and meteorological parameters in ASCII column format over the region selected above.
+</b>
+</td><td><small>
+<select multiple name="p" id="param" size="9">
+<option value="toa_dwn">Top-of-atmosphere Insolation (Jul 1983-near present)
+<option value="swv_dwn">Insolation on Horizontal Surface (Jul 1983-near present)
+<option value="lwv_dwn">Downward Longwave Radiative Flux (Jul 1983-near present)
+<option value="T2M">Average Air Temperature at 2 m (Jan 1983-near present)
+<option value="T2MN">Minimum Air Temperature at 2 m (Jan 1983-near present)
+<option value="T2MX">Maximum Air Temperature at 2 m (Jan 1983-near present)
+<option value="RH2M">Relative Humidity at 2 m (Jan 1983-near present)
+<option value="DFP2M">Dew Point at 2 m (Jan 1983-near present)
+<option value="RAIN">Precipitation (Jan 1997-Dec 2013)
+<option value="WS10M">Wind Speed at 10 m (Jan 1983-near present)
+</select>
+</small></td></tr></table>
+<table align="center" summary="table used for formatting" width="70%"><tr>
+<td><b><input type="submit" name="submit" value="Submit"></b></td>
+<td><b><input type="submit" name="submit" value=" Reset "></b></td>
+<td align="center">
+<i>This form is "Reset" if the input is out of range.</i>
+</td></tr></table>
+</form>
+<hr width="80%">
+<div align="center">
+<table width="100%" summary="table used for formatting"><tr><td align="center">
+<img src="/solar/images/power_back.jpg" alt="POWER image" width="95" height="111" border="0">
+</td><td align="center">
+<p>
+</td><td width="60%">
+<small><i><a href="/cgi-bin/cgiwrap/solar/print.cgi?acknowledgements.txt">Acknowledgements Please</a></i></small>
+<br><small><i>Questions/Comments: <a href="mailto:power-project@lists.nasa.gov">POWER Project Team</a></i></small>
+<br><small><i>NASA Official: Paul W. Stackhouse, Jr., Ph.D.</a></i></small>
+<br><small><i>Site URL: </i><b> http://power.larc.nasa.gov</b></small>
+<br><small><i>[<a href="http://www.nasa.gov/about/highlights/HP_Privacy.html" target="_blank">Privacy Policy and Important Notices</a>]</i></small>
+<br><small><i>Document generated on Mon Jan 26 23:36:54 EST 2015</i></small>
+</td></tr></table></div>
+<!-- <script type="text/javascript" src="/solar/js/ntpagetag.js"></script><noscript><img src="http://ws1.ems.eosdis.nasa.gov/images/ntpagetag.gif?js=0" height="1" width="1" border="0" hspace="0" vspace="0" alt="ESDIS web hit counter"></noscript> -->
+</body>
+</html>
