@@ -1,3 +1,3 @@
 #!/bin/bash
-
-nohup ipython notebook &
+workon scipy
+nohup jupyter notebook > /dev/null &

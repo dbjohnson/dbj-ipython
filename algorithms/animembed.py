@@ -7,10 +7,10 @@ VIDEO_TAG = """<video controls>
 </video>"""
 
 
-def anim_to_html(anim):
+def anim_to_html(anim, fps):
     if not hasattr(anim, '_encoded_video'):
         with NamedTemporaryFile(suffix='.mp4') as f:
-            anim.save(f.name, fps=20, extra_args=['-vcodec', 'libx264', '-pix_fmt', 'yuv420p'])
+            anim.save(f.name, fps=fps, extra_args=['-vcodec', 'libx264', '-pix_fmt', 'yuv420p'])
             video = open(f.name, "rb").read()
         anim._encoded_video = video.encode("base64")
 
@@ -20,6 +20,6 @@ def anim_to_html(anim):
 from IPython.display import HTML
 
 
-def display_animation(anim):
+def display_animation(anim, fps=1):
     plt.close(anim._fig)
-    return HTML(anim_to_html(anim))
+    return HTML(anim_to_html(anim, fps))
