@@ -1,5 +1,7 @@
 from tempfile import NamedTemporaryFile
 import matplotlib.pyplot as plt
+from IPython.display import HTML
+
 
 VIDEO_TAG = """<video controls>
  <source src="data:video/x-m4v;base64,{0}" type="video/mp4">
@@ -15,9 +17,6 @@ def anim_to_html(anim, fps):
         anim._encoded_video = video.encode("base64")
 
     return VIDEO_TAG.format(anim._encoded_video)
-
-
-from IPython.display import HTML
 
 
 def display_animation(anim, fps=1):
